@@ -1,0 +1,4 @@
+pwd — shows current directory ("where am I?")
+whoami — shows current logged-in user
+hostname — shows the machine's name
+date — shows current date/time
