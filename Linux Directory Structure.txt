@@ -1,33 +1,4 @@
-<<<<<<< HEAD
-linux directory structure
-/
-├── bin -> usr/bin
-├── boot
-├── dev
-├── etc
-├── home
-│   └── user
-├── lib -> usr/lib
-├── media
-├── mnt
-├── opt
-├── proc
-├── root
-├── run
-├── sbin -> usr/sbin
-├── srv
-├── sys
-├── tmp
-├── usr
-│   ├── bin
-│   ├── lib
-│   ├── local
-│   └── share
-└── var
-    ├── log
-    └── tmp
-=======
-linux directory structure
+Linux directory structure
 
 Directory	Purpose
 /	        Root of the entire filesystem
