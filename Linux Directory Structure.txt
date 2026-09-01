@@ -1,4 +1,29 @@
 linux directory structure
+
+Directory	Purpose
+/	        Root of the entire filesystem
+/bin	    Essential user command binaries (ls, cp, cat, etc.)
+/sbin	    Essential system binaries, mostly for root/admin tasks
+/etc	    System-wide configuration files
+/home	    Personal directories for each user (e.g., /home/alice)
+/root	    Home directory for the root (superuser) account
+/var	    Variable data — logs, mail spools, caches
+/tmp	    Temporary files, often cleared on reboot
+/usr	    User programs, libraries, documentation (the bulk of installed software)
+/usr/bin	Non-essential user command binaries
+/usr/lib	Libraries for /usr/bin and /usr/sbin
+/usr/local	Software installed manually/locally, outside package manager
+/lib, /lib64	Essential shared libraries for /bin and /sbin
+/opt	    Optional/third-party software packages
+/dev	    Device files (hardware represented as files)
+/proc	    Virtual filesystem exposing kernel/process info
+/sys	    Virtual filesystem exposing kernel/device data
+/boot	    Boot loader files, kernel images
+/media	    Mount points for removable media (USB, CDs)
+/mnt	    Temporary mount points for filesystems
+/srv	    Data for services provided by the system (web/ftp servers)
+
+Visual Layout
 /
 ├── bin -> usr/bin
 ├── boot
